@@ -1,0 +1,8 @@
+@use "styles/base";
+@use "styles/variables" as *;
+
+html,
+body,
+main {
+  height: 100%;
+}
