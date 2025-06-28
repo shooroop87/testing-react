@@ -1,0 +1,9 @@
+.app {
+  text-align: center;
+  color: #000;
+}
+
+.content {
+  max-width: 860px;
+  margin: 90px auto;
+}
