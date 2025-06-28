@@ -1,0 +1,70 @@
+.element_container {
+    display: flex;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.constructor_element {
+    padding: 16px 24px;
+    display: inline-block;
+    border-radius: var(--common-border-radius-s);
+    background: var(--background-element);
+    max-width: 488px;
+    min-height: 48px;
+    font-family: 'Jet Brains Mono';
+    font-size: 16px;
+    line-height: 24px;
+    color: #F2F2F3;
+    flex-grow: 1;
+}
+
+.constructor_element_pos_top {
+    border-radius: var(--top-constructor-item-border-radius);
+}
+
+.constructor_element_pos_bottom {
+    border-radius: var(--bottom-constructor-item-border-radius);
+}
+
+.constructor_element_row {
+    display: flex;
+    align-items: center;
+}
+
+.constructor_element_image {
+    width: 80px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.constructor_element_text {
+    margin-right: 20px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 24px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.constructor_element_price {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.constructor_element_price svg {
+    margin-left: 9px;
+}
+
+.constructor_element_action {
+    margin-left: 20px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
